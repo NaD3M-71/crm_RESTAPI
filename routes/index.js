@@ -107,7 +107,6 @@ module.exports = function () {
   /** USUARIOS */
   // Crear nuevo Usuario
   router.post("/crear-cuenta", 
-        auth,
         usuariosController.crearCuenta
     );
 
